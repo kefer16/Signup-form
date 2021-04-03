@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style> -->
+</head>
+
+<body>
+  <div class="content">
+    <div class="card">
+      <div class="left">
+        <h1 class="left__title">
+          Learn to code by watching others
+        </h1>
+        <p class="left__description">
+          See how experienced developers solve problems in
+          real-time. Watching scripted tutorials is great, but
+          understanding how developers think is invaluable.
+        </p>
+      </div>
+      <div class="rigth">
+        <p class="sponsor">
+          <span class="sponsor--bold">
+            Try it free 7 days
+          </span>
+          then $20/mo. thereafter
+        </p>
+        <form id="js-form" action="#" class="form" novalidate>
+          <input id="js-firstName" type="text" aria-label="First Name" class="input " placeholder="First Name" />
+          <p id="js-messageFisrtName" class="msjError"></p>
+
+          <input id="js-lastName" type="text" aria-label="Last Name" class="input " placeholder="Last Name" />
+          <p id="js-messageLastName" class="msjError"></p>
+
+          <input id="js-email" type="email" aria-label="Email Address" class="input" placeholder="Email Address"
+            autocomplete="off" />
+          <p id="js-messageEmail" class="msjError"></p>
+
+          <input id="js-password" type="password" aria-label="Password" class="input" placeholder="Password" />
+          <p id="js-messagePassword" class="msjError"></p>
+
+          <input id="js-submit" type="submit" aria-label="Submit" class="input input--submit"
+            value="Claim your free trial" />
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <span class="terms--bold">
+              Terms and Services
+            </span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <span id="js-submitSucessfully" class="submit__sucessfully">
+
+    Form submitted successfully
+  </span>
+  <!-- <footer>
+            <p class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by <a href="#">Your Name Here</a>.
+            </p>
+        </footer> -->
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
